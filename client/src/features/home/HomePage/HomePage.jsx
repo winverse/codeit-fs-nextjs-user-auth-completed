@@ -2,8 +2,8 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import Button from "@/components/Button";
-import Link from "@/components/Link";
+import { Button } from "@/components/Button";
+import { Link } from "@/components/Link";
 import { useAuth } from "@/contexts/AuthProvider";
 import * as styles from "./HomePage.css.js";
 

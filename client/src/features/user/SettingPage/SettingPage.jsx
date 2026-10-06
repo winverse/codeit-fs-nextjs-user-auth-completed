@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import Label from "@/components/Label";
-import Input from "@/components/Input";
-import Button from "@/components/Button";
-import TextArea from "@/components/TextArea";
-import AvatarInput from "@/components/AvatarInput";
+import { Label } from "@/components/Label";
+import { Input } from "@/components/Input";
+import { Button } from "@/components/Button";
+import { TextArea } from "@/components/TextArea";
+import { AvatarInput } from "@/components/AvatarInput";
 import { useAuth } from "@/contexts/AuthProvider";
 import * as styles from "./SettingPage.css.js";
 
