@@ -46,7 +46,7 @@ pnpm dev
 
 ## 구글 로그인
 
-구글로 시작하기는 Google Cloud에서 발급한 값을 `server/.env`에 넣어야 동작합니다. `server/.env.example`을 복사해 `server/.env`를 만들고 값을 채웁니다. 값이 없으면 구글 로그인만 동작하지 않고 나머지 기능은 그대로 쓸 수 있습니다. `.env`는 Git에 올라가지 않습니다.
+구글로 시작하기는 Google Cloud에서 발급한 값을 `server/env/.env.development`에 넣어야 동작합니다. `server/env/.env.example`을 복사해 `server/env/.env.development`를 만들고 값을 채웁니다. 값이 없으면 구글 로그인만 동작하지 않고 나머지 기능은 그대로 쓸 수 있습니다. 이 파일은 Git에 올라가지 않습니다.
 
 ```text
 GOOGLE_CLIENT_ID=발급받은 클라이언트 ID
